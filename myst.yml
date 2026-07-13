@@ -1,15 +1,32 @@
-# See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
   id: 26e29d4f-1740-4ab7-9426-58f0f2118055
-  # title:
-  # description:
-  # keywords: []
-  # authors: []
-  # github:
-  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  title: Kyber Physics
+  description: Physics, from Newton to quantum — built for the cybernetics stack
+  authors:
+    - name:
+        literal: RequieMa
+  github: https://github.com/RequieMa/kyber-physics
+  toc:
+    - file: about.md
+    - title: En
+      file: book/en/en-intro.md
+      children: []
+    - title: 中文
+      file: book/zh/zh-intro.md
+      children: []
+    - title: Support
+      children:
+        - file: about.md
+        - file: contact.md
+        - file: privacy.md
+        - file: terms.md
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  options:
+    logo_text: Kyber Physics
+  actions:
+    - title: En
+      url: /en-intro
+    - title: 中文
+      url: /zh-intro
