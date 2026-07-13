@@ -11,10 +11,12 @@ project:
     - file: about.md
     - title: En
       file: book/en/en-intro.md
-      children: []
+      children:
+        - file: book/en/en-kinematics.md
     - title: 中文
       file: book/zh/zh-intro.md
-      children: []
+      children:
+        - file: book/zh/zh-kinematics.md
     - title: Support
       children:
         - file: about.md
