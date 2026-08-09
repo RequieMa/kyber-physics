@@ -12,7 +12,7 @@ project:
     - title: En
       file: book/en/en-intro.md
       children:
-        - file: book/en/en-kinematics.md
+        - file: book/en/classical_dynamics/en-linear-kinematics.md
     - title: 中文
       file: book/zh/zh-intro.md
       children:
